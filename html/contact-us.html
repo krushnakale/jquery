@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>krusna contact details</title>
+       <script src="../js/jquery-3.6.0.min.js"></script>
+       <script src="../js/contact.js"></script>
+    </head>
+    <body>
+        <form method="post" actions="some-server-page.php">
+        <div>
+            <label for="fname">First Name:</label>
+            <input autocomplete="given-name" id="fname">
+        </div>
+        <div>
+            <lable for="lname">Last Name:</lable>
+            <input autocomplete="family-name" id="lname">
+        </div>
+        <div>
+            <lable for="email">email:</lable>
+            <input autocomplete="email" id="email"></input>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+        </div>
+        <div>
+       <input type="submit" onclick="validateForm();" value="Send message">
+    </div>
+    </form>
+    <p>helllo everyone im learning jquery-3</p>
+    </body>
+</html>
